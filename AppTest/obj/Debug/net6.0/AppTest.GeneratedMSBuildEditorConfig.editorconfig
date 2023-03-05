@@ -12,10 +12,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppTest
-build_property.ProjectDir = /Users/pkord/RiderProjects/AppTest/AppTest/
+build_property.ProjectDir = /Users/pkord/RiderProjects/Avalonia-Dev/AppTest/
 
-[/Users/pkord/RiderProjects/AppTest/AppTest/App.axaml]
+[/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/pkord/RiderProjects/AppTest/AppTest/Views/MainWindow.axaml]
+[/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

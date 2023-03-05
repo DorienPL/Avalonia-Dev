@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VnW+d/pgDqDCxJltWpdJzw2rXwtbPWyvItKKB91ohY5OGjsXmwngRm0VHw96cotofpXW9M/haT7gRAGrE067Xw==",
+  "dgSpecHash": "XsldSNwFgpyzRKMTBBNiY/5YVeADdigOBxh+UDgj4s0y7AshtCcWsKTosyKas4o3UnTIfgul39sgWgtEwzvS2w==",
   "success": true,
-  "projectFilePath": "/Users/pkord/RiderProjects/AppTest/AppTest/AppTest.csproj",
+  "projectFilePath": "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/AppTest.csproj",
   "expectedPackageFiles": [
     "/Users/pkord/.nuget/packages/avalonia/0.10.18/avalonia.0.10.18.nupkg.sha512",
     "/Users/pkord/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2020091801/avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",

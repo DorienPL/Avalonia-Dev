@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pkord/RiderProjects/AppTest/AppTest/AppTest.csproj": {}
+    "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/AppTest.csproj": {}
   },
   "projects": {
-    "/Users/pkord/RiderProjects/AppTest/AppTest/AppTest.csproj": {
+    "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/AppTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pkord/RiderProjects/AppTest/AppTest/AppTest.csproj",
+        "projectUniqueName": "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/AppTest.csproj",
         "projectName": "AppTest",
-        "projectPath": "/Users/pkord/RiderProjects/AppTest/AppTest/AppTest.csproj",
+        "projectPath": "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/AppTest.csproj",
         "packagesPath": "/Users/pkord/.nuget/packages/",
-        "outputPath": "/Users/pkord/RiderProjects/AppTest/AppTest/obj/",
+        "outputPath": "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pkord/.nuget/NuGet/NuGet.Config"
