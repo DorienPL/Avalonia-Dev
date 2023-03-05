@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XsldSNwFgpyzRKMTBBNiY/5YVeADdigOBxh+UDgj4s0y7AshtCcWsKTosyKas4o3UnTIfgul39sgWgtEwzvS2w==",
+  "dgSpecHash": "pXC98uG1wNVzB7Gou2yel9w4H65dpSIoT5BeS+j0VXi++7xWI73ae8e1u/1EBdgiBeOTwwvs2CF/VWVPtq/l4A==",
   "success": true,
   "projectFilePath": "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/AppTest.csproj",
   "expectedPackageFiles": [
@@ -77,9 +77,9 @@
     "/Users/pkord/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/pkord/.nuget/packages/tmds.dbus/0.9.0/tmds.dbus.0.9.0.nupkg.sha512",
     "/Users/pkord/.nuget/packages/xamlnamereferencegenerator/1.6.1/xamlnamereferencegenerator.1.6.1.nupkg.sha512",
-    "/Users/pkord/.nuget/packages/microsoft.netcore.app.ref/6.0.12/microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
-    "/Users/pkord/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.12/microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
-    "/Users/pkord/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.12/microsoft.netcore.app.host.osx-arm64.6.0.12.nupkg.sha512"
+    "/Users/pkord/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/Users/pkord/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "/Users/pkord/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.13/microsoft.netcore.app.host.osx-arm64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

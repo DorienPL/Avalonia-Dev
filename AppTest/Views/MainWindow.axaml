@@ -14,7 +14,15 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+    <StackPanel>
+        <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding Testujemy}" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <ListBox Items="{Binding test}" Width="130" HorizontalAlignment="Left">
+            <ListBox.Styles>
+                <Style Selector="ListBoxItem">
+                    <Setter Property="Width" Value="130"/>
+                </Style>
+            </ListBox.Styles>
+            </ListBox>
+    </StackPanel>
 </Window>
