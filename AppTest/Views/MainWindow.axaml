@@ -3,6 +3,8 @@
         xmlns:vm="using:AppTest.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:AppTest.ViewModels"
+        xmlns:models="clr-namespace:AppTest.Models"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AppTest.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -14,15 +16,36 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
+    <Window.Styles>
+        <Style Selector="TextBlock.h1">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+        <Style Selector="TextBlock.h2">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontStyle" Value="Italic"></Setter>
+            <Setter Property="FontFamily" Value="Times New Roman"></Setter>
+        </Style>
+    </Window.Styles>
     <StackPanel>
-        <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <TextBlock Text="{Binding Testujemy}" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <ListBox Items="{Binding test}" Width="130" HorizontalAlignment="Left">
+        <TextBlock Classes="h1" Text="{Binding WelcomeMsg}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding TestWrite}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ListBox Items="{Binding Armia}" Width="130" HorizontalAlignment="Center">
             <ListBox.Styles>
                 <Style Selector="ListBoxItem">
                     <Setter Property="Width" Value="130"/>
                 </Style>
             </ListBox.Styles>
             </ListBox>
+        <TextBlock Text="{Binding Human}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ComboBox SelectedIndex="0">
+            <ComboBoxItem>Human</ComboBoxItem>
+            <ComboBoxItem>Halfling</ComboBoxItem>
+            <ComboBoxItem>Dwarf</ComboBoxItem>
+            <ComboBoxItem>High Elf</ComboBoxItem>
+            <ComboBoxItem>Wood Elf</ComboBoxItem>
+        </ComboBox>
     </StackPanel>
 </Window>
