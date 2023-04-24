@@ -32,20 +32,12 @@
     <StackPanel>
         <TextBlock Classes="h1" Text="{Binding WelcomeMsg}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBlock Classes="h2" Text="{Binding TestWrite}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <ListBox Items="{Binding Armia}" Width="130" HorizontalAlignment="Center">
-            <ListBox.Styles>
-                <Style Selector="ListBoxItem">
-                    <Setter Property="Width" Value="130"/>
-                </Style>
-            </ListBox.Styles>
-            </ListBox>
-        <TextBlock Text="{Binding Human}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <ComboBox SelectedIndex="0">
-            <ComboBoxItem>Human</ComboBoxItem>
-            <ComboBoxItem>Halfling</ComboBoxItem>
-            <ComboBoxItem>Dwarf</ComboBoxItem>
-            <ComboBoxItem>High Elf</ComboBoxItem>
-            <ComboBoxItem>Wood Elf</ComboBoxItem>
-        </ComboBox>
+        <TextBlock Classes="h2" Text="{Binding race.RaceName }" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding race.GeneratedNumber }" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Grid>
+        <DataGrid>
+            
+        </DataGrid>
+        </Grid>
     </StackPanel>
 </Window>
