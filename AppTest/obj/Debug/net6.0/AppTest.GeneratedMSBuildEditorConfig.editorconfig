@@ -9,13 +9,12 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppTest
-build_property.ProjectDir = /Users/pkord/RiderProjects/Avalonia-Dev/AppTest/
+build_property.ProjectDir = C:\Users\Dorie\source\repos\Avalonia-Dev\AppTest\
 
-[/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/App.axaml]
+[C:/Users/Dorie/source/repos/Avalonia-Dev/AppTest/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/Views/MainWindow.axaml]
+[C:/Users/Dorie/source/repos/Avalonia-Dev/AppTest/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
