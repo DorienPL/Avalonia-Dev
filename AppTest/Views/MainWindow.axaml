@@ -31,10 +31,18 @@
     </Window.Styles>
     <StackPanel>
         <TextBlock Classes="h1" Text="{Binding WelcomeMsg}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <TextBlock Classes="h2" Text="{Binding TestWrite}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBox Classes="h2" Name="GeneratedRaceText" Text="{Binding PickedRace  }" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsWs}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsBs}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsS}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsT}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsI}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsDex}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsAg}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsInt}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsWp}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Classes="h2" Text="{Binding StatsFel}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Button Width="200" Command="{Binding OnButtonClick}" Content="Generate Race"></Button>
-        
         <Grid>
         <DataGrid Name="RaceStatistics" AutoGenerateColumns="False">
             <DataGrid.Columns>

@@ -8,124 +8,119 @@ namespace AppTest.Models;
 
 public class Statistics : MainWindow
 {
-    private int _weaponSkill;
-    private int _ballisticSkill;
-    private int _strength;
-    private int _toughness;
-    private int _initiative;
-    private int _dexterity;
-    private int _agility;
-    private int _intelligence;
-    private int _willpower;
-    private int _fellowship;
+    public int WeaponSkill;
+    public int BallisticSkill;
+    public int Strength;
+    public int Toughness;
+    public int Initiative;
+    public int Dexterity;
+    public int Agility;
+    public int Intelligence;
+    public int Willpower;
+    public int Fellowship;
     public int HealthPoints;
     public int Fate;
     public int Resilience;
     public int Fortune;
     public int Resolve;
     public int Speed;
+
+    public Statistics()
+    {
+        StatisticsGenerate();
+    }
     public Statistics(int weaponSkill, int ballisticSkill, int strength, int toughness, int initiative, 
                         int dexterity, int agility, int intelligence, int willpower, int fellowship)
     {
-        _weaponSkill = weaponSkill;
-        _ballisticSkill = ballisticSkill;
-        _strength = strength;
-        _toughness = toughness;
-        _initiative = initiative;
-        _dexterity = dexterity;
-        _agility = agility;
-        _intelligence = intelligence;
-        _willpower = willpower;
-        _fellowship = fellowship;
+        WeaponSkill = weaponSkill;
+        BallisticSkill = ballisticSkill;
+        Strength = strength;
+        Toughness = toughness;
+        Initiative = initiative;
+        Dexterity = dexterity;
+        Agility = agility;
+        Intelligence = intelligence;
+        Willpower = willpower;
+        Fellowship = fellowship;
     }
-    public Statistics StatisticsGenerate()
+    private void StatisticsGenerate()
     {
+        
         string generatedRace = GeneratedRaceText.Text;
-        Statistics raceStats; 
         if (generatedRace == "Human")
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            raceStats = new Statistics(_weaponSkill, _ballisticSkill, _strength, _toughness, _initiative, _dexterity, _agility, 
-                _intelligence, _willpower, _fellowship);
-            _weaponSkill = random.Next(2, 21) + 20;
-            _ballisticSkill = random.Next(2, 21) + 20;
-            _strength = random.Next(2, 21) + 20;
-            _toughness = random.Next(2, 21) + 20;
-            _initiative = random.Next(2, 21 + 20);
-            _dexterity = random.Next(2, 21) + 20;
-            _agility = random.Next(2, 21) + 20;
-            _intelligence = random.Next(2, 21) + 20;
-            _willpower = random.Next(2, 21) + 20;
-            _fellowship = random.Next(2, 21) + 20;
-            return raceStats;
+            WeaponSkill = random.Next(22, 41);
+            BallisticSkill = random.Next(22, 41);
+            Strength = random.Next(22, 41);
+            Toughness = random.Next(22, 41);
+            Initiative = random.Next(22, 41);
+            Dexterity = random.Next(22, 41);
+            Agility = random.Next(22, 41);
+            Intelligence = random.Next(22, 41);
+            Willpower = random.Next(22, 41);
+            Fellowship = random.Next(22, 41);
+            
         }
+        
         else if (generatedRace == "Dwarf")
         {
-            raceStats = new Statistics(_weaponSkill, _ballisticSkill, _strength, _toughness, _initiative, _dexterity, _agility,
-                _intelligence, _willpower, _fellowship);
             var random = new Random(Guid.NewGuid().GetHashCode());
-            _weaponSkill = random.Next(2, 21);
-            _ballisticSkill = random.Next(2, 21);
-            _strength = random.Next(2, 21);
-            _toughness = random.Next(2, 21);
-            _initiative = random.Next(2, 21);
-            _dexterity = random.Next(2, 21);
-            _agility = random.Next(2, 21);
-            _intelligence = random.Next(2, 21);
-            _willpower = random.Next(2, 21);
-            _fellowship = random.Next(2, 21);
-            return raceStats;
+            WeaponSkill = random.Next(2, 21);
+            BallisticSkill = random.Next(2, 21);
+            Strength = random.Next(2, 21);
+            Toughness = random.Next(2, 21);
+            Initiative = random.Next(2, 21);
+            Dexterity = random.Next(2, 21);
+            Agility = random.Next(2, 21);
+            Intelligence = random.Next(2, 21);
+            Willpower = random.Next(2, 21);
+            Fellowship = random.Next(2, 21);
+            
         }
         else if (generatedRace == "Halfling")
         {
-            raceStats = new Statistics(_weaponSkill, _ballisticSkill, _strength, _toughness, _initiative, _dexterity, _agility,
-                _intelligence, _willpower, _fellowship);
             var random = new Random(Guid.NewGuid().GetHashCode());
-            _weaponSkill = random.Next(2, 21);
-            _ballisticSkill = random.Next(2, 21);
-            _strength = random.Next(2, 21);
-            _toughness = random.Next(2, 21);
-            _initiative = random.Next(2, 21);
-            _dexterity = random.Next(2, 21);
-            _agility = random.Next(2, 21);
-            _intelligence = random.Next(2, 21);
-            _willpower = random.Next(2, 21);
-            _fellowship = random.Next(2, 21);
-            return raceStats;
+            WeaponSkill = random.Next(2, 21);
+            BallisticSkill = random.Next(2, 21);
+            Strength = random.Next(2, 21);
+            Toughness = random.Next(2, 21);
+            Initiative = random.Next(2, 21);
+            Dexterity = random.Next(2, 21);
+            Agility = random.Next(2, 21);
+            Intelligence = random.Next(2, 21);
+            Willpower = random.Next(2, 21);
+            Fellowship = random.Next(2, 21);
+            
         }
         else if (generatedRace == "HighElf")
         {
-            raceStats = new Statistics(_weaponSkill, _ballisticSkill, _strength, _toughness, _initiative, _dexterity, _agility,
-                _intelligence, _willpower, _fellowship);
             var random = new Random(Guid.NewGuid().GetHashCode());
-            _weaponSkill = random.Next(2, 21);
-            _ballisticSkill = random.Next(2, 21);
-            _strength = random.Next(2, 21);
-            _toughness = random.Next(2, 21);
-            _initiative = random.Next(2, 21);
-            _dexterity = random.Next(2, 21);
-            _agility = random.Next(2, 21);
-            _intelligence = random.Next(2, 21);
-            _willpower = random.Next(2, 21);
-            _fellowship = random.Next(2, 21);
-            return raceStats;
+            WeaponSkill = random.Next(2, 21);
+            BallisticSkill = random.Next(2, 21);
+            Strength = random.Next(2, 21);
+            Toughness = random.Next(2, 21);
+            Initiative = random.Next(2, 21);
+            Dexterity = random.Next(2, 21);
+            Agility = random.Next(2, 21);
+            Intelligence = random.Next(2, 21);
+            Willpower = random.Next(2, 21);
+            Fellowship = random.Next(2, 21);
+       
         }
         else
         {
-            raceStats = new Statistics(_weaponSkill, _ballisticSkill, _strength, _toughness, _initiative, _dexterity, _agility,
-                _intelligence, _willpower, _fellowship);
             var random = new Random(Guid.NewGuid().GetHashCode());
-            _weaponSkill = random.Next(2, 21);
-            _ballisticSkill = random.Next(2, 21);
-            _strength = random.Next(2, 21);
-            _toughness = random.Next(2, 21);
-            _initiative = random.Next(2, 21);
-            _dexterity = random.Next(2, 21);
-            _agility = random.Next(2, 21);
-            _intelligence = random.Next(2, 21);
-            _willpower = random.Next(2, 21);
-            _fellowship = random.Next(2, 21);
-            return raceStats;
+            WeaponSkill = random.Next(22, 41);
+            BallisticSkill = random.Next(2, 21);
+            Strength = random.Next(2, 21);
+            Toughness = random.Next(2, 21);
+            Initiative = random.Next(2, 21);
+            Dexterity = random.Next(2, 21);
+            Agility = random.Next(2, 21);
+            Intelligence = random.Next(2, 21);
+            Willpower = random.Next(2, 21);
+            Fellowship = random.Next(2, 21);
         }
     }
 }

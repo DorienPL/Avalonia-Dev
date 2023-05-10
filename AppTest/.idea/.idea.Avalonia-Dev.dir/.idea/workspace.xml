@@ -7,11 +7,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19dae8a0-0aad-4b54-8eae-d01bf4c95f99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/Statistics.cs" afterDir="false" />
+    <list default="true" id="19dae8a0-0aad-4b54-8eae-d01bf4c95f99" name="Changes" comment="Test Statystyk">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Race.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Race.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Statistics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Statistics.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +45,18 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3fc08e292f47f62ab1f7f73d3ea699921ae256974fa4f8e87865ec4bb50f4/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6c44631413e09854d1d7f93e2a816863e54e4ba6f7b2279c1748d122158c8/MethodToCommandConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a45696f9a5ff6cb1a62df8ddc1cced1fa76fd45c83396560d628148eb19862/RoutedEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2c66afceabede0107eef1a7e53aaa548bdf28d878c14952ca578c37f823f/AnonymousObserver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e15b7d564ccc9c5bad5fff5763f6da0a5b1e2fdedf57f2958b195afcd284c/ObserverBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e3133daee343bbb06bd6885714bfb7c4a6221deae751e3f7c03a4b17b4eac0e7/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e8dcffb885f13e51dd5956b64711d7689d7e9ebaa36e4357153f96d1869b3f/InputElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f21d2c1dceb811b413adf9d53c1c3543bc4a67fbe809daf3d9cc626c01d827b/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f36724d2e12b56ff0d73dd63d47dd2212a2c78223d4a2b475d856c31ae8cd/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9fb095c5b770259d59c0a9b4ae5e82db670824b1394d743144bc86c542c/Interop.Generated.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Models/Race.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Models/Race.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Models/Race.cs" root0="SKIP_HIGHLIGHTING" />
@@ -49,6 +73,13 @@
     <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2P94wIN4bQQxLCDnNL7zsKIP25f" />
@@ -56,30 +87,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.5017007&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.33484676",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/pkord/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/pkord/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/pkord/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/pkord/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache",
+      "/Users/pkord/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache",
+      "/Users/pkord/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="AppTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -118,7 +149,7 @@
       <workItem from="1683470094161" duration="5443000" />
       <workItem from="1683712103901" duration="7217000" />
       <workItem from="1683721068479" duration="272000" />
-      <workItem from="1683721406407" duration="1050000" />
+      <workItem from="1683721406407" duration="8012000" />
     </task>
     <task id="LOCAL-00001" summary="Działający guzik">
       <created>1682935022202</created>
@@ -127,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682935022202</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test Statystyk">
+      <created>1683722611921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683722611921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Działający guzik" />
-    <option name="LAST_COMMIT_MESSAGE" value="Działający guzik" />
+    <MESSAGE value="Test Statystyk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Statystyk" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
