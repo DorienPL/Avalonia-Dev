@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dorie\\source\\repos\\Avalonia-Dev\\AppTest\\AppTest.csproj": {}
+    "/Users/pkord/Projects/Avalonia-Dev/AppTest/AppTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dorie\\source\\repos\\Avalonia-Dev\\AppTest\\AppTest.csproj": {
+    "/Users/pkord/Projects/Avalonia-Dev/AppTest/AppTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dorie\\source\\repos\\Avalonia-Dev\\AppTest\\AppTest.csproj",
+        "projectUniqueName": "/Users/pkord/Projects/Avalonia-Dev/AppTest/AppTest.csproj",
         "projectName": "AppTest",
-        "projectPath": "C:\\Users\\Dorie\\source\\repos\\Avalonia-Dev\\AppTest\\AppTest.csproj",
-        "packagesPath": "C:\\Users\\Dorie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dorie\\source\\repos\\Avalonia-Dev\\AppTest\\obj\\",
+        "projectPath": "/Users/pkord/Projects/Avalonia-Dev/AppTest/AppTest.csproj",
+        "packagesPath": "/Users/pkord/.nuget/packages/",
+        "outputPath": "/Users/pkord/Projects/Avalonia-Dev/AppTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dorie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/pkord/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,12 +71,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.3.23178.7/RuntimeIdentifierGraph.json"
         }
       }
     }

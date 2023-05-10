@@ -5,25 +5,26 @@ using System.ComponentModel;
 using System.Security.Cryptography;
 using AppTest.Models;
 using ReactiveUI;
-using Avalonia.ReactiveUI;
-using Avalonia.Interactivity;
 
 namespace AppTest.ViewModels;
 
-public class MainWindowViewModel : ViewModelBase
+public class MainWindowViewModel : ReactiveObject
 {
-    public SimpleViewModel SimpleViewModel { get;}   = new SimpleViewModel();
-    public void OnClickRace(object? sender, RoutedEventArgs e)
+    public Race race;
+    public void OnButtonClick()
     {
-
-        // race = Race.RacePick();
-        this.SimpleViewModel.Name = "teest2";    
-    } 
-    
+        race = Race.RacePick();
+        PickedRace = race.RaceName;
+    }
+    private string pickedRace = String.Empty;
+    public string PickedRace
+    {
+        get => pickedRace;
+        set => this.RaiseAndSetIfChanged(ref pickedRace, value);
+    }
     public string WelcomeMsg => "Welcome to Warhammer Fantasy Roleplay character creator!";
     public string TestWrite => "Elfs are super";
-    public string Test => "Testowanie";
+    
+    
+    
 }
-
-
-

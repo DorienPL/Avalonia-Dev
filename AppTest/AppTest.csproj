@@ -9,7 +9,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Models\" />
         <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
 
@@ -28,5 +27,6 @@
 
     <ItemGroup>
       <Compile Remove="Models\Army.cs" />
+      <Compile Remove="ViewModels\SimpleViewModel.cs" />
     </ItemGroup>
 </Project>

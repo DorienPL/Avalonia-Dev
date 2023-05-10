@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Xml;
 using Avalonia.Data.Converters;
 
 namespace AppTest.Models;
@@ -12,13 +13,13 @@ public class Race
     {
         RaceName = raceName;
     }
-    public string RaceName { get; set; }  
+    public string RaceName { get; }  
 
     
 
     public static Race RacePick()
     {
-        var random = new Random();
+        var random = new Random(Guid.NewGuid().GetHashCode());
         int generateRace = random.Next(1, 100);
         Race race;
 
@@ -50,4 +51,3 @@ public class Race
         }
     }
 }
-
