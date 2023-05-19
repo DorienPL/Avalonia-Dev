@@ -4,6 +4,8 @@ using AppTest.Views;
 using Avalonia.Interactivity;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using ReactiveUI;
+
 namespace AppTest.Models;
 
 public class Statistics : MainWindow
