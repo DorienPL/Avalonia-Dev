@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Xml;
 using Avalonia.Data.Converters;
 
 namespace AppTest.Models;
@@ -11,43 +12,42 @@ public class Race
     public Race(string raceName, int number)
     {
         RaceName = raceName;
-        GeneratedNumber = number;
     }
-    public string RaceName { get; set; }
-    public int GeneratedNumber { get; set; }
+    public string RaceName { get; }  
+
     
-    public static int GenerateRace => RandomGenerator.RandomNumber(0, 99);
 
     public static Race RacePick()
     {
+        var random = new Random(Guid.NewGuid().GetHashCode());
+        int generateRace = random.Next(1, 100);
         Race race;
 
-        if (GenerateRace < 91)
+        if (generateRace < 91)
         {
-            race = new Race("Human", GenerateRace);
+            race = new Race("Human", generateRace);
                
             return race;
         }
-        else if (GenerateRace < 95)
+        else if (generateRace < 95)
         {
-            race = new Race("Halfling", GenerateRace);
+            race = new Race("Halfling", generateRace);
             return race;
         }
-        else if (GenerateRace < 99)
+        else if (generateRace < 99)
         {
-            race = new Race("Dwarf", GenerateRace);
+            race = new Race("Dwarf", generateRace);
             return race;
         }
-        else if (GenerateRace < 100)
+        else if (generateRace == 100)
         {
-            race = new Race("HighElf", GenerateRace);
+            race = new Race("HighElf", generateRace);
             return race;
         }
         else 
         {
-            race = new Race("WoodElf", GenerateRace);
+            race = new Race("WoodElf", generateRace);
             return race;
         }
     }
 }
-

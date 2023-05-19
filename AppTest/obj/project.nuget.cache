@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9DlZye/olCUhCA4M4o9Vfwl0L2UcYFmdjGz55Sp8YTVcIibwznWoFP/s66JIBpQGiudWND9osQ9wJ2XGk6QCDw==",
+  "dgSpecHash": "f7BGsB20ETz+15B5mN/FlFnNobxjUHjfuRQFU42E21xbZZcnCy+XDcTJmI2gDIQ934BKIGgAA4yM0FJ2oFsmXg==",
   "success": true,
-  "projectFilePath": "/Users/pkord/RiderProjects/Avalonia-Dev/AppTest/AppTest.csproj",
+  "projectFilePath": "/Users/pkord/Projects/Avalonia-Dev/AppTest/AppTest.csproj",
   "expectedPackageFiles": [
     "/Users/pkord/.nuget/packages/avalonia/0.10.18/avalonia.0.10.18.nupkg.sha512",
     "/Users/pkord/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2020091801/avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",
@@ -77,9 +77,9 @@
     "/Users/pkord/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/pkord/.nuget/packages/tmds.dbus/0.9.0/tmds.dbus.0.9.0.nupkg.sha512",
     "/Users/pkord/.nuget/packages/xamlnamereferencegenerator/1.6.1/xamlnamereferencegenerator.1.6.1.nupkg.sha512",
-    "/Users/pkord/.nuget/packages/microsoft.netcore.app.ref/6.0.16/microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "/Users/pkord/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.16/microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
-    "/Users/pkord/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.16/microsoft.netcore.app.host.osx-arm64.6.0.16.nupkg.sha512"
+    "/Users/pkord/.nuget/packages/microsoft.netcore.app.ref/6.0.15/microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "/Users/pkord/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.15/microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "/Users/pkord/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.15/microsoft.netcore.app.host.osx-arm64.6.0.15.nupkg.sha512"
   ],
   "logs": []
 }

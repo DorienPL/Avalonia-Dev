@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1" date="1683720755554" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 10/05/2023, 14:12 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net6.0/AppTest.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net6.0/AppTest.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/AppTest.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net6.0/AppTest.assets.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net6.0/AppTest.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/AppTest.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/Resources.Inputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net6.0/Avalonia/resources" />
+    <option name="AFTER_PATH" value="obj/Debug/net6.0/Avalonia/resources" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/resources" />
+  </binary>
+</changelist>
