@@ -35,7 +35,6 @@
         <TextBlock  Classes="h2" Text="{Binding WelcomeMsg}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Button Width="200" Command="{Binding OnButtonClickRace}" Content="Generate Race"></Button>
         <Button Width="200" Command="{Binding OnButtonClickStatistics}" Content="Generate Statistics"></Button>
-        <TextBlock Classes="h2" Name="GeneratedRaceText" Text="{Binding PickedRace}"/>
         <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
@@ -49,42 +48,46 @@
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="130"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
-            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" Classes="h2" Text="Weapon Skill: "/>
-        <TextBlock Grid.Row="0" Grid.Column="1" Classes="h2" Text="{Binding StatsWs}" IsEnabled="False"/>
-        <TextBlock Grid.Row="1" Grid.Column="0" Classes="h2" Text="Balistic Skill: "/>
-        <TextBlock Grid.Row="1" Grid.Column="1" Classes="h2" Text="{Binding StatsBs}" VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="2" Grid.Column="0" Classes="h2" Text="Strength: "/>
-        <TextBlock Grid.Row="2" Grid.Column="1" Classes="h2" Text="{Binding StatsS}"  VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="3" Grid.Column="0" Classes="h2" Text="Toughness: "/>
-        <TextBlock Grid.Row="3" Grid.Column="1" Classes="h2" Text="{Binding StatsT}"  VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="4" Grid.Column="0" Classes="h2" Text="Initiative: "/>
-        <TextBlock Grid.Row="4" Grid.Column="1" Classes="h2" Text="{Binding StatsI}"  VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="5" Grid.Column="0" Classes="h2" Text="Dexterity: "/>
-        <TextBlock Grid.Row="5" Grid.Column="1" Classes="h2" Text="{Binding StatsDex}" VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="6" Grid.Column="0" Classes="h2" Text="Agility: "/>
-        <TextBlock Grid.Row="6" Grid.Column="1" Classes="h2" Text="{Binding StatsAg}" VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="7" Grid.Column="0" Classes="h2" Text="Intelligence: "/>
-        <TextBlock Grid.Row="7" Grid.Column="1" Classes="h2" Text="{Binding StatsInt}" VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="8" Grid.Column="0" Classes="h2" Text="Willpower: "/>
-        <TextBlock Grid.Row="8" Grid.Column="1" Classes="h2" Text="{Binding StatsWp}" VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="9" Grid.Column="0" Classes="h2" Text="Fellowship: "/>
-        <TextBlock Grid.Row="9" Grid.Column="1" Classes="h2" Text="{Binding StatsFel}" VerticalAlignment="Center"/>
-        <TextBlock Grid.Row="10" Grid.Column="0" Classes="h2" Text="Health Points: "/>
-        <TextBlock Grid.Row="10" Grid.Column="1" Classes="h2" Text="{Binding HealthPoints}" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0" Classes="h2" Text="Your race is: "></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Classes="h2" Name="GeneratedRaceText" Text="{Binding PickedRace}"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Classes="h2" Text="Weapon Skill: "/>
+            <TextBlock Grid.Row="1" Grid.Column="1" Classes="h2" Text="{Binding StatsWs}" IsEnabled="False"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Classes="h2" Text="Balistic Skill: "/>
+            <TextBlock Grid.Row="2" Grid.Column="1" Classes="h2" Text="{Binding StatsBs}" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="3" Grid.Column="0" Classes="h2" Text="Strength: "/>
+            <TextBlock Grid.Row="3" Grid.Column="1" Classes="h2" Text="{Binding StatsS}"  VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Classes="h2" Text="Toughness: "/>
+            <TextBlock Grid.Row="4" Grid.Column="1" Classes="h2" Text="{Binding StatsT}"  VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="5" Grid.Column="0" Classes="h2" Text="Initiative: "/>
+            <TextBlock Grid.Row="5" Grid.Column="1" Classes="h2" Text="{Binding StatsI}"  VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="6" Grid.Column="0" Classes="h2" Text="Dexterity: "/>
+            <TextBlock Grid.Row="6" Grid.Column="1" Classes="h2" Text="{Binding StatsDex}" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="7" Grid.Column="0" Classes="h2" Text="Agility: "/>
+            <TextBlock Grid.Row="7" Grid.Column="1" Classes="h2" Text="{Binding StatsAg}" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="8" Grid.Column="0" Classes="h2" Text="Intelligence: "/>
+            <TextBlock Grid.Row="8" Grid.Column="1" Classes="h2" Text="{Binding StatsInt}" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="9" Grid.Column="0" Classes="h2" Text="Willpower: "/>
+            <TextBlock Grid.Row="9" Grid.Column="1" Classes="h2" Text="{Binding StatsWp}" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="10" Grid.Column="0" Classes="h2" Text="Fellowship: "/>
+            <TextBlock Grid.Row="10" Grid.Column="1" Classes="h2" Text="{Binding StatsFel}" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="11" Grid.Column="0" Classes="h2" Text="Health Points: "/>
+            <TextBlock Grid.Row="11" Grid.Column="1" Classes="h2" Text="{Binding HealthPoints}" VerticalAlignment="Center"></TextBlock>
     </Grid>
     </StackPanel>
 </Window>

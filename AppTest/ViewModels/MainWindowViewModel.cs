@@ -18,7 +18,7 @@ public class MainWindowViewModel : ReactiveObject
     public void OnButtonClickRace()
     {
         race = Race.RacePick();
-        PickedRace = race.RaceName + " is you race";
+        PickedRace = race.RaceName;
     }
 
     public void OnButtonClickStatistics()
