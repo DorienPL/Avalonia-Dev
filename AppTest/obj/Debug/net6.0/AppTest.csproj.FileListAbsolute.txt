@@ -292,7 +292,6 @@ C:/Users/Dorie/source/repos/Avalonia-Dev/AppTest/obj/Debug/net6.0/ref/AppTest.dl
 /Users/pkord/Projects/Avalonia-Dev/AppTest/bin/Debug/net6.0/Avalonia.Diagnostics.dll
 /Users/pkord/Projects/Avalonia-Dev/AppTest/bin/Debug/net6.0/Avalonia.FreeDesktop.dll
 /Users/pkord/Projects/Avalonia-Dev/AppTest/bin/Debug/net6.0/Avalonia.Native.dll
-/Users/pkord/Projects/Avalonia-Dev/AppTest/bin/Debug/net6.0/Avalonia.ReactiveUI.dll
 /Users/pkord/Projects/Avalonia-Dev/AppTest/bin/Debug/net6.0/Avalonia.Remote.Protocol.dll
 /Users/pkord/Projects/Avalonia-Dev/AppTest/bin/Debug/net6.0/Avalonia.Skia.dll
 /Users/pkord/Projects/Avalonia-Dev/AppTest/bin/Debug/net6.0/Avalonia.Win32.dll

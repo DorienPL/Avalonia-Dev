@@ -3,11 +3,10 @@ using System.Runtime.InteropServices.ComTypes;
 using AppTest.Views;
 using Avalonia.Interactivity;
 using Avalonia.Controls;
+using Avalonia.Data;
 using Avalonia.Markup.Xaml;
 using ReactiveUI;
-
 namespace AppTest.Models;
-
 public class Statistics : MainWindow
 {
     public int WeaponSkill;
@@ -21,35 +20,17 @@ public class Statistics : MainWindow
     public int Willpower;
     public int Fellowship;
     public int HealthPoints;
-    public int Fate;
-    public int Resilience;
-    public int Fortune;
-    public int Resolve;
-    public int Speed;
+    public Statistics(string race)
+    {
+        StatisticsGenerate(race);
+    }
 
-    public Statistics()
-    {
-        StatisticsGenerate();
-    }
-    public Statistics(int weaponSkill, int ballisticSkill, int strength, int toughness, int initiative, 
-                        int dexterity, int agility, int intelligence, int willpower, int fellowship)
-    {
-        WeaponSkill = weaponSkill;
-        BallisticSkill = ballisticSkill;
-        Strength = strength;
-        Toughness = toughness;
-        Initiative = initiative;
-        Dexterity = dexterity;
-        Agility = agility;
-        Intelligence = intelligence;
-        Willpower = willpower;
-        Fellowship = fellowship;
-    }
-    private void StatisticsGenerate()
+    private void StatisticsGenerate(string race)
     {
         
-        string generatedRace = GeneratedRaceText.Text;
-        if (generatedRace == "Human")
+        // string race = GeneratedRaceText.Text;
+        
+        if (race == "Human")
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
             WeaponSkill = random.Next(22, 41);
@@ -62,67 +43,151 @@ public class Statistics : MainWindow
             Intelligence = random.Next(22, 41);
             Willpower = random.Next(22, 41);
             Fellowship = random.Next(22, 41);
-            
+            int toughnessBonus = Math.Abs(Toughness);
+            int willpowerBonus = Math.Abs(Willpower);
+            int strengthBonus = Math.Abs(Strength);
+            while (strengthBonus >= 10)
+            {
+                strengthBonus /= 10;
+            }
+            while (willpowerBonus >= 10)
+            {
+                willpowerBonus /= 10;
+            }
+
+            while (toughnessBonus >= 10)
+            {
+                toughnessBonus /= 10;
+            }
+            HealthPoints = strengthBonus + 2 * toughnessBonus + willpowerBonus;
         }
         
-        else if (generatedRace == "Dwarf")
+        else if (race == "Dwarf")
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            WeaponSkill = random.Next(2, 21);
-            BallisticSkill = random.Next(2, 21);
-            Strength = random.Next(2, 21);
-            Toughness = random.Next(2, 21);
-            Initiative = random.Next(2, 21);
-            Dexterity = random.Next(2, 21);
-            Agility = random.Next(2, 21);
-            Intelligence = random.Next(2, 21);
-            Willpower = random.Next(2, 21);
-            Fellowship = random.Next(2, 21);
+            WeaponSkill = random.Next(32, 51);
+            BallisticSkill = random.Next(22, 41);
+            Strength = random.Next(22, 41);
+            Toughness = random.Next(32, 51);
+            Initiative = random.Next(22, 41);
+            Dexterity = random.Next(32, 51);
+            Agility = random.Next(12, 31);
+            Intelligence = random.Next(22, 41);
+            Willpower = random.Next(42, 61);
+            Fellowship = random.Next(12, 31);
+            int toughnessBonus = Math.Abs(Toughness);
+            int willpowerBonus = Math.Abs(Willpower);
+            int strengthBonus = Math.Abs(Strength);
+            while (strengthBonus >= 10)
+            {
+                strengthBonus /= 10;
+            }
+            while (willpowerBonus >= 10)
+            {
+                willpowerBonus /= 10;
+            }
+
+            while (toughnessBonus >= 10)
+            {
+                toughnessBonus /= 10;
+            }
+            HealthPoints = strengthBonus + 2 * toughnessBonus + willpowerBonus;
             
         }
-        else if (generatedRace == "Halfling")
+        else if (race == "Halfling")
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            WeaponSkill = random.Next(2, 21);
-            BallisticSkill = random.Next(2, 21);
-            Strength = random.Next(2, 21);
-            Toughness = random.Next(2, 21);
-            Initiative = random.Next(2, 21);
-            Dexterity = random.Next(2, 21);
-            Agility = random.Next(2, 21);
-            Intelligence = random.Next(2, 21);
-            Willpower = random.Next(2, 21);
-            Fellowship = random.Next(2, 21);
+            WeaponSkill = random.Next(12, 31);
+            BallisticSkill = random.Next(32, 51);
+            Strength = random.Next(12, 31);
+            Toughness = random.Next(22, 41);
+            Initiative = random.Next(22, 41);
+            Dexterity = random.Next(32, 51);
+            Agility = random.Next(22, 41);
+            Intelligence = random.Next(22, 41);
+            Willpower = random.Next(32, 51);
+            Fellowship = random.Next(32, 51);
+            int toughnessBonus = Math.Abs(Toughness);
+            int willpowerBonus = Math.Abs(Willpower);
+            int strengthBonus = Math.Abs(Strength);
+            while (strengthBonus >= 10)
+            {
+                strengthBonus /= 10;
+            }
+            while (willpowerBonus >= 10)
+            {
+                willpowerBonus /= 10;
+            }
+
+            while (toughnessBonus >= 10)
+            {
+                toughnessBonus /= 10;
+            }
+            HealthPoints = strengthBonus + 2 * toughnessBonus + willpowerBonus;
             
         }
-        else if (generatedRace == "HighElf")
+        else if (race == "HighElf")
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            WeaponSkill = random.Next(2, 21);
-            BallisticSkill = random.Next(2, 21);
-            Strength = random.Next(2, 21);
-            Toughness = random.Next(2, 21);
-            Initiative = random.Next(2, 21);
-            Dexterity = random.Next(2, 21);
-            Agility = random.Next(2, 21);
-            Intelligence = random.Next(2, 21);
-            Willpower = random.Next(2, 21);
-            Fellowship = random.Next(2, 21);
+            WeaponSkill = random.Next(32, 51);
+            BallisticSkill = random.Next(32, 51);
+            Strength = random.Next(22, 41);
+            Toughness = random.Next(22, 41);
+            Initiative = random.Next(42, 61);
+            Dexterity = random.Next(32, 51);
+            Agility = random.Next(32, 51);
+            Intelligence = random.Next(32, 51);
+            Willpower = random.Next(32, 51);
+            Fellowship = random.Next(22, 41);
+            int toughnessBonus = Math.Abs(Toughness);
+            int willpowerBonus = Math.Abs(Willpower);
+            int strengthBonus = Math.Abs(Strength);
+            while (strengthBonus >= 10)
+            {
+                strengthBonus /= 10;
+            }
+            while (willpowerBonus >= 10)
+            {
+                willpowerBonus /= 10;
+            }
+
+            while (toughnessBonus >= 10)
+            {
+                toughnessBonus /= 10;
+            }
+            HealthPoints = strengthBonus + 2 * toughnessBonus + willpowerBonus;
        
         }
         else
         {
             var random = new Random(Guid.NewGuid().GetHashCode());
-            WeaponSkill = random.Next(22, 41);
-            BallisticSkill = random.Next(2, 21);
-            Strength = random.Next(2, 21);
-            Toughness = random.Next(2, 21);
-            Initiative = random.Next(2, 21);
-            Dexterity = random.Next(2, 21);
-            Agility = random.Next(2, 21);
-            Intelligence = random.Next(2, 21);
-            Willpower = random.Next(2, 21);
-            Fellowship = random.Next(2, 21);
+            WeaponSkill = random.Next(32, 51);
+            BallisticSkill = random.Next(32, 51);
+            Strength = random.Next(22, 41);
+            Toughness = random.Next(22, 41);
+            Initiative = random.Next(42, 61);
+            Dexterity = random.Next(32, 51);
+            Agility = random.Next(32, 51);
+            Intelligence = random.Next(32, 51);
+            Willpower = random.Next(32, 51);
+            Fellowship = random.Next(22, 41);
+            int toughnessBonus = Math.Abs(Toughness);
+            int willpowerBonus = Math.Abs(Willpower);
+            int strengthBonus = Math.Abs(Strength);
+            while (strengthBonus >= 10)
+            {
+                strengthBonus /= 10;
+            }
+            while (willpowerBonus >= 10)
+            {
+                willpowerBonus /= 10;
+            }
+
+            while (toughnessBonus >= 10)
+            {
+                toughnessBonus /= 10;
+            }
+            HealthPoints = strengthBonus + 2 * toughnessBonus + willpowerBonus;
         }
     }
 }

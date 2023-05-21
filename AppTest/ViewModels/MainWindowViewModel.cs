@@ -4,20 +4,26 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Security.Cryptography;
 using AppTest.Models;
+using Avalonia.Markup.Xaml;
 using ReactiveUI;
+using Avalonia.Interactivity;
 
 namespace AppTest.ViewModels;
-
 public class MainWindowViewModel : ReactiveObject
 {
+
     public Race race;
     public Statistics Stats;
     //Generating Race and Stats on button
-    public void OnButtonClick()
+    public void OnButtonClickRace()
     {
         race = Race.RacePick();
         PickedRace = race.RaceName;
-        Stats = new Statistics();
+    }
+
+    public void OnButtonClickStatistics()
+    {
+        Stats = new Statistics(PickedRace);
         StatsWs = Stats.WeaponSkill;
         StatsBs = Stats.BallisticSkill;
         StatsS = Stats.Strength;
@@ -28,6 +34,7 @@ public class MainWindowViewModel : ReactiveObject
         StatsInt = Stats.Intelligence;
         StatsWp = Stats.Willpower;
         StatsFel = Stats.Fellowship;
+        HealthPoints = Stats.HealthPoints;
     }
     private string _pickedRace = String.Empty;
     public string PickedRace
@@ -35,7 +42,6 @@ public class MainWindowViewModel : ReactiveObject
         get => _pickedRace;
         set => this.RaiseAndSetIfChanged(ref _pickedRace, value);
     }
-    // Genereting stats - może da się lepiej?
     // WeaponSkill
     private int _statsWs;
     public int StatsWs
@@ -105,6 +111,12 @@ public class MainWindowViewModel : ReactiveObject
     {
         get => _statsFel;
         set => this.RaiseAndSetIfChanged(ref _statsFel, value);
+    }
+    private int _healthPoints;
+    public int HealthPoints
+    {
+        get => _healthPoints;
+        set => this.RaiseAndSetIfChanged(ref _healthPoints, value);
     }
     // End of stats generating
     public string WelcomeMsg => "Welcome to Warhammer Fantasy Roleplay character creator!";
