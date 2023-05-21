@@ -1,7 +1,6 @@
 using System.Globalization;
 using System.Xml;
 using Avalonia.Data.Converters;
-
 namespace AppTest.Models;
 using System;
 using Avalonia.Controls;

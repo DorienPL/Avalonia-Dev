@@ -8,25 +8,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19dae8a0-0aad-4b54-8eae-d01bf4c95f99" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/AppTest.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/AppTest.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/Resources.Inputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023,_14_12_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_05_2023__14_12__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Army.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Race.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Race.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Statistics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Statistics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModels/SimpleViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Avalonia.ReactiveUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/DynamicData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/DynamicData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/ReactiveUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/ReactiveUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Splat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Splat.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AppTest.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/references" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/references" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +57,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3fc08e292f47f62ab1f7f73d3ea699921ae256974fa4f8e87865ec4bb50f4/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6c44631413e09854d1d7f93e2a816863e54e4ba6f7b2279c1748d122158c8/MethodToCommandConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a45696f9a5ff6cb1a62df8ddc1cced1fa76fd45c83396560d628148eb19862/RoutedEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a7ad30f3ac0723382218092f88f1c9a2d416a1378115bd05c3fd1be8b7/String.Comparison.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2c66afceabede0107eef1a7e53aaa548bdf28d878c14952ca578c37f823f/AnonymousObserver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e15b7d564ccc9c5bad5fff5763f6da0a5b1e2fdedf57f2958b195afcd284c/ObserverBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e3133daee343bbb06bd6885714bfb7c4a6221deae751e3f7c03a4b17b4eac0e7/Random.cs" root0="SKIP_HIGHLIGHTING" />
@@ -54,31 +68,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f21d2c1dceb811b413adf9d53c1c3543bc4a67fbe809daf3d9cc626c01d827b/Random.Xoshiro256StarStarImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f36724d2e12b56ff0d73dd63d47dd2212a2c78223d4a2b475d856c31ae8cd/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9fb095c5b770259d59c0a9b4ae5e82db670824b1394d743144bc86c542c/Interop.Generated.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Models/Race.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Models/Race.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Models/Race.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ViewLocator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/ViewModels/MainWindowViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/ViewModels/MainWindowViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/ViewModels/MainWindowViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/ViewModels/MainWindowViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/ViewModels/MainWindowViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/ViewModels/MainWindowViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/ViewModels/MainWindowViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ViewModels/SimpleViewModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/pkord/Projects/Avalonia-Dev/AppTest/Views/MainWindow.axaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2P94wIN4bQQxLCDnNL7zsKIP25f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -148,7 +144,9 @@
       <workItem from="1683721068479" duration="272000" />
       <workItem from="1683721406407" duration="9131000" />
       <workItem from="1683731047293" duration="336000" />
-      <workItem from="1684500002654" duration="300000" />
+      <workItem from="1684500002654" duration="654000" />
+      <workItem from="1684663472528" duration="3590000" />
+      <workItem from="1684667792853" duration="9860000" />
     </task>
     <task id="LOCAL-00001" summary="Działający guzik">
       <created>1682935022202</created>
@@ -171,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683730214875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="usunięcie plików">
+      <created>1684500356963</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684500356963</updated>
+    </task>
+    <task id="LOCAL-00005" summary="usunięcie plików">
+      <created>1684500515927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684500515927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +217,8 @@
     <MESSAGE value="Działający guzik" />
     <MESSAGE value="Test Statystyk" />
     <MESSAGE value="Skończone generowanie statystyk (to poprawy instrukcja warunkowa bo nie działa poprawnie)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skończone generowanie statystyk (to poprawy instrukcja warunkowa bo nie działa poprawnie)" />
+    <MESSAGE value="usunięcie plików" />
+    <option name="LAST_COMMIT_MESSAGE" value="usunięcie plików" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

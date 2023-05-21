@@ -55,9 +55,9 @@
               "target": "Package",
               "version": "[0.10.18, )"
             },
-            "Avalonia.ReactiveUI": {
+            "ReactiveUI": {
               "target": "Package",
-              "version": "[0.10.18, )"
+              "version": "[18.4.44, )"
             },
             "XamlNameReferenceGenerator": {
               "target": "Package",
