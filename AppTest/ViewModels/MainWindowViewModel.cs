@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Avalonia.Controls;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,40 +8,70 @@ using AppTest.Models;
 using Avalonia.Markup.Xaml;
 using ReactiveUI;
 using Avalonia.Interactivity;
+using Avalonia.Media.Imaging;
 
 namespace AppTest.ViewModels;
 public class MainWindowViewModel : ReactiveObject
 {
+   
+    private IBitmap _raceImage;
+    private Statistics? _stats;
+    private static class SaveToFile
+    {
+        private static StreamWriter? _sw;
 
-    public Race race;
-    public Statistics Stats;
+        public static void WriteToFile()
+        {
+            _sw = new StreamWriter("/Users/pkord/Desktop/avaloniatest/character.txt");
+            _sw.WriteLine("Name");
+            _sw.Close();
+        }
+    }
+
     //Generating Race and Stats on button
     public void OnButtonClickRace()
     {
-        race = Race.RacePick();
+        var (race, raceBitmap) = Race.RacePick();
         PickedRace = race.RaceName;
+        RaceImage = raceBitmap;
     }
 
+    public static void OnButtonSaveToFile()
+    {
+        SaveToFile.WriteToFile();
+    }
     public void OnButtonClickStatistics()
     {
-        Stats = new Statistics(PickedRace);
-        StatsWs = Stats.WeaponSkill;
-        StatsBs = Stats.BallisticSkill;
-        StatsS = Stats.Strength;
-        StatsT = Stats.Toughness;
-        StatsI = Stats.Initiative;
-        StatsDex = Stats.Dexterity;
-        StatsAg = Stats.Agility;
-        StatsInt = Stats.Intelligence;
-        StatsWp = Stats.Willpower;
-        StatsFel = Stats.Fellowship;
-        HealthPoints = Stats.HealthPoints;
+        _stats = new Statistics(PickedRace);
+        StatsWs = _stats.WeaponSkill;
+        StatsBs = _stats.BallisticSkill;
+        StatsS = _stats.Strength;
+        StatsT = _stats.Toughness;
+        StatsI = _stats.Initiative;
+        StatsDex = _stats.Dexterity;
+        StatsAg = _stats.Agility;
+        StatsInt = _stats.Intelligence;
+        StatsWp = _stats.Willpower;
+        StatsFel = _stats.Fellowship;
+        HealthPoints = _stats.HealthPoints;
     }
     private string _pickedRace = String.Empty;
+    private string _name;
+    
+    public string Name
+    {
+        get => _name;
+        set => this.RaiseAndSetIfChanged(ref _name, value);
+    }
     public string PickedRace
     {
         get => _pickedRace;
         set => this.RaiseAndSetIfChanged(ref _pickedRace, value);
+    }
+    public IBitmap RaceImage
+    {
+        get => _raceImage;
+        set => this.RaiseAndSetIfChanged(ref _raceImage, value);
     }
     // WeaponSkill
     private int _statsWs;
@@ -119,6 +150,4 @@ public class MainWindowViewModel : ReactiveObject
         set => this.RaiseAndSetIfChanged(ref _healthPoints, value);
     }
     // End of stats generating
-    public string WelcomeMsg => "Welcome to Warhammer Fantasy Roleplay character creator!";
-    public string TestWrite => "Elfs are super";
 }

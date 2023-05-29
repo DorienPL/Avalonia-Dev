@@ -1,22 +1,15 @@
-using System.Globalization;
-using System.Xml;
-using Avalonia.Data.Converters;
 namespace AppTest.Models;
 using System;
 using Avalonia.Controls;
-using System.Collections.Generic;
-using System.Security.Cryptography;
+using Avalonia.Media.Imaging;
 public class Race
 {
-    public Race(string raceName, int number)
+    private Race(string raceName)
     {
         RaceName = raceName;
     }
-    public string RaceName { get; }  
-
-    
-
-    public static Race RacePick()
+    public string RaceName { get; }
+    public static (Race, Bitmap) RacePick()
     {
         var random = new Random(Guid.NewGuid().GetHashCode());
         int generateRace = random.Next(1, 100);
@@ -24,29 +17,33 @@ public class Race
 
         if (generateRace < 91)
         {
-            race = new Race("Human", generateRace);
-               
-            return race;
+            race = new Race("Human");
+            var raceBitmap = new Bitmap("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/human.png");
+            return (race, raceBitmap);
         }
         else if (generateRace < 95)
         {
-            race = new Race("Halfling", generateRace);
-            return race;
+            race = new Race("Halfling");
+            var raceBitmap = new Bitmap("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/halfling.png");
+            return (race, raceBitmap);
         }
         else if (generateRace < 99)
         {
-            race = new Race("Dwarf", generateRace);
-            return race;
+            race = new Race("Dwarf");
+            var raceBitmap = new Bitmap("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/dwarf.png");
+            return (race, raceBitmap);
         }
         else if (generateRace == 100)
         {
-            race = new Race("HighElf", generateRace);
-            return race;
+            race = new Race("HighElf");
+            var raceBitmap = new Bitmap("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/highelf.png");
+            return (race, raceBitmap);
         }
         else 
         {
-            race = new Race("WoodElf", generateRace);
-            return race;
+            race = new Race("WoodElf");
+            var raceBitmap = new Bitmap("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/woodelf.png");
+            return (race, raceBitmap);
         }
     }
 }

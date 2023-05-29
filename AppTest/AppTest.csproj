@@ -10,6 +10,7 @@
 
     <ItemGroup>
         <AvaloniaResource Include="Assets\**" />
+        <AvaloniaResource Remove="Assets\Font\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -29,5 +30,23 @@
     <ItemGroup>
       <Compile Remove="Models\Army.cs" />
       <Compile Remove="ViewModels\SimpleViewModel.cs" />
+      <Compile Remove="Assets\Font\**" />
+      <Compile Remove="Models\GeneratePDF.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AvaloniaXaml Remove="Assets\Font\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Assets\Font\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Remove="Assets\Font\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\Font\**" />
     </ItemGroup>
 </Project>
