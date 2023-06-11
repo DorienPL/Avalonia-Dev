@@ -20,55 +20,76 @@
     <Window.Styles>
         <Style Selector="Window">
             <Setter Property="MaxWidth" Value="685"/>
-            <Setter Property="MaxHeight" Value="900"/>
+            <Setter Property="MaxHeight" Value="709"/>
         </Style>
         <Style Selector="TextBlock.h1">
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
             <Setter Property="VerticalAlignment" Value="Center"></Setter>
             <Setter Property="FontSize" Value="24"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="FontFamily" Value="Palatino"></Setter>
-            <Setter Property="Background" Value="Aquamarine"></Setter>
+            <Setter Property="FontFamily" Value="MonsterRat"></Setter>
+            <Setter Property="Background" Value="#593417"></Setter>
+            <Setter Property="Foreground" Value="#bbbbbb"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
         </Style>
         <Style Selector="TextBlock.grid1">
             <Setter Property="HorizontalAlignment" Value="Left"></Setter>
             <Setter Property="FontSize" Value="18"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="FontFamily" Value="Palatino"></Setter>
+            <Setter Property="FontFamily" Value="MonsterRat"></Setter>
             <Setter Property="Margin" Value="0,0,0,5"></Setter>
+            <Setter Property="Foreground" Value="#bbbbbb"></Setter>
+            <Setter Property="Background" Value="#593417"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
         </Style>
         <Style Selector="TextBlock.grid2">
             <Setter Property="HorizontalAlignment" Value="Left"></Setter>
             <Setter Property="FontSize" Value="18"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="FontFamily" Value="Palatino"></Setter>
+            <Setter Property="FontFamily" Value="MonsterRat"></Setter>
+            <Setter Property="Foreground" Value="#bbbbbb"></Setter>
+            <Setter Property="Background" Value="#593417"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
         </Style>
         <Style Selector="TextBox.info">
-            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="Width" Value="240"></Setter>
             <Setter Property="HorizontalAlignment" Value="Left"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
-            <Setter Property="FontFamily" Value="Palatino"></Setter>
+            <Setter Property="FontFamily" Value="MonsterRat"></Setter>
+            <Setter Property="Background" Value="#593417"></Setter>
+            <Setter Property="Foreground" Value="#bbbbbb"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
         </Style>
         <Style Selector="Button.button">
             <Setter Property="Width" Value="180"></Setter>
             <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="FontFamily" Value="MonsterRat"></Setter>
             <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
             <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Background" Value="#593417"></Setter>
+            <Setter Property="Foreground" Value="#bbbbbb"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
         </Style>
         <Style Selector="Grid.gridbtest1">
-            <Setter Property="Background" Value="Coral"></Setter>
+            <Setter Property="Background" Value="#593417"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
         </Style>
         <Style Selector="Grid.gridbtest2">
-            <Setter Property="Background" Value="PaleTurquoise"></Setter>
+            <Setter Property="Background" Value="#593417"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
         </Style>
     </Window.Styles>
+    <Window.Background>
+        <ImageBrush Source="/Assets/background.jpg"/>
+    </Window.Background>
     <StackPanel>
-        <TextBlock  Classes="h1" Text="Warhammer Fantasy Roleplay 4th Edition Character Generator" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Grid Classes="gridbtest2" ColumnDefinitions="200,200" RowDefinitions="100">
-        <Button Classes="button" Grid.Column="0"  Command="{Binding OnButtonClickRace}" Content="Generate Race"></Button>
-        <Button Classes="button" Grid.Column="1"  Command="{Binding OnButtonClickStatistics}" Content="Generate Statistics"></Button>
+        <Image Source="/Assets/banner.png"></Image>
+        <Grid Classes="gridbtest2" ColumnDefinitions="*,*" RowDefinitions="100">
+        <Button Classes="button" Grid.Column="0" HorizontalAlignment="Center" Command="{Binding OnButtonClickRace}" Content="Generate Race"></Button>
+        <Button Classes="button" Grid.Column="1" HorizontalAlignment="Center" Command="{Binding OnButtonClickStatistics}" Content="Generate Statistics"></Button>
         </Grid>
-        <Grid Classes="gridbtest1" ColumnDefinitions="130,140,Auto" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
+        <Grid Classes="gridbtest1" ColumnDefinitions="130,140,Auto,*"
+              RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
             <TextBlock Grid.Row="0" Grid.Column="0" Classes="grid1" Text="Your race is: "></TextBlock>
             <TextBlock Grid.Row="0" Grid.Column="1" Classes="grid1" Name="GeneratedRaceText" Text="{Binding PickedRace}"/>
             <Image Grid.Row="0" Grid.Column="2" Grid.RowSpan="11" Grid.ColumnSpan="2" Height="300" Width="300" Source="{Binding RaceImage}"></Image>
@@ -95,7 +116,7 @@
             <TextBlock Grid.Row="11" Grid.Column="0" Classes="grid1" Text="Health Points: "/>
             <TextBlock Grid.Row="11" Grid.Column="1" Classes="grid1" Height="40" Text="{Binding HealthPoints}" VerticalAlignment="Center"></TextBlock>
     </Grid>
-        <Grid Classes="gridbtest2" ColumnDefinitions="250,200" RowDefinitions="Auto,Auto,Auto,Auto,Auto">
+        <Grid Classes="gridbtest2" ColumnDefinitions="250,200" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
             <TextBlock Grid.Column="0" Grid.Row="0" Margin="0,0,0,10" Classes="grid2" Name="Details" Text="Enter your Character details"></TextBlock>
             <TextBlock Grid.Row="1" Grid.Column="0" Classes="grid2" Text="Name: "></TextBlock>
             <TextBox Grid.Row="1" Grid.Column="1" Classes="info" Name="Name"></TextBox>
@@ -105,7 +126,7 @@
             <TextBox Grid.Row="3" Grid.Column="1" Classes="info" Name="HairColour"></TextBox>
             <TextBlock Grid.Row="4" Grid.Column="0" Classes="grid2" Text="Eye colour: "></TextBlock>
             <TextBox Grid.Row="4" Grid.Column="1" Classes="info" Name="EyeColour"></TextBox>
+            <Button Grid.Row="5" Grid.Column="1" Classes="button" HorizontalAlignment="Center" Command="{Binding OnButtonSaveToFile}" Content="Save to file"></Button>
         </Grid>
-        <Button Classes="button" HorizontalAlignment="Center" Command="{Binding OnButtonSaveToFile}" Content="Save to file"></Button>
     </StackPanel>
 </Window>

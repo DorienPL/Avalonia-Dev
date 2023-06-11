@@ -13,7 +13,7 @@ using Avalonia.Media.Imaging;
 namespace AppTest.ViewModels;
 public class MainWindowViewModel : ReactiveObject
 {
-   
+    public string Banner => "/Assets/Banner.png";
     private IBitmap _raceImage;
     private Statistics? _stats;
     private static class SaveToFile
