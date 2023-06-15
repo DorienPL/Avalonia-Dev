@@ -22,8 +22,8 @@ public class MainWindowViewModel : ReactiveObject
 
         public static void WriteToFile()
         {
-            _sw = new StreamWriter("/Users/pkord/Desktop/avaloniatest/character.txt");
-            _sw.WriteLine("Name");
+            _sw = new StreamWriter("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/character.txt");
+            _sw.WriteLine("Test2");
             _sw.Close();
         }
     }
