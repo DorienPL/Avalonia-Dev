@@ -7,9 +7,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19dae8a0-0aad-4b54-8eae-d01bf4c95f99" name="Changes" comment="Poprawne generowanie statystyk i raz + poprawa UI (minimalna)">
+    <list default="true" id="19dae8a0-0aad-4b54-8eae-d01bf4c95f99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/character.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/highelf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia-Dev.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/dwarf.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/dwarf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/halfling.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/halfling.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/highelf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/human.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/human.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/woodelf.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/woodelf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Race.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Race.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/AppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/AppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Avalonia/resources" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +89,11 @@
     ]
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="AppTest" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+  <component name="RunManager" selected=".NET Project.AppTest">
+    <configuration name="AppTest" type="DotNetProject" factoryName=".NET Project" singleton="false">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/net6.0/AppTest" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Debug/net6.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -85,11 +103,32 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net6.0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="AppTest.ViewModels.MainWindowViewModel.OnButtonSaveToFile" type="DotNetStaticMethod" factoryName=".NET Static Method" temporary="true">
+      <option name="EXE_PATH" value="$APPLICATION_HOME_DIR$/lib/ReSharperHost/JetLauncherILc.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AppTest.csproj" />
+      <option name="PROJECT_TFM" value="net6.0" />
+      <option name="CLASS_NAME" value="AppTest.ViewModels.MainWindowViewModel" />
+      <option name="METHOD_NAME" value="OnButtonSaveToFile" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Static Method.AppTest.ViewModels.MainWindowViewModel.OnButtonSaveToFile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +152,23 @@
       <workItem from="1683731047293" duration="336000" />
       <workItem from="1684500002654" duration="654000" />
       <workItem from="1684663472528" duration="3590000" />
-      <workItem from="1684667792853" duration="10216000" />
+      <workItem from="1684667792853" duration="10537000" />
+      <workItem from="1684695064861" duration="182000" />
+      <workItem from="1684754442350" duration="790000" />
+      <workItem from="1684755241609" duration="6878000" />
+      <workItem from="1684762907996" duration="4837000" />
+      <workItem from="1684843637350" duration="1898000" />
+      <workItem from="1684865030533" duration="614000" />
+      <workItem from="1685354132257" duration="4744000" />
+      <workItem from="1685359070125" duration="13014000" />
+      <workItem from="1685434256680" duration="1196000" />
+      <workItem from="1685528555932" duration="598000" />
+      <workItem from="1686498746393" duration="3016000" />
+      <workItem from="1686501769665" duration="72000" />
+      <workItem from="1686656897294" duration="3567000" />
+      <workItem from="1686824105636" duration="22000" />
+      <workItem from="1686824174941" duration="2706000" />
+      <workItem from="1686862044179" duration="1875000" />
     </task>
     <task id="LOCAL-00001" summary="Działający guzik">
       <created>1682935022202</created>
@@ -157,13 +212,37 @@
       <option name="project" value="LOCAL" />
       <updated>1684684463182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dodanie generacji rasy do grida">
+      <created>1684684936559</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684684936559</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implementacja zdjęć i poprawy UI">
+      <created>1685375749885</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685375749885</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding some visuality">
+      <created>1686501806399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686501806399</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="dotnet:Microsoft.Extensions.Logging" />
+  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ID_ORDER">
       <list>
@@ -193,7 +272,18 @@
     <MESSAGE value="Skończone generowanie statystyk (to poprawy instrukcja warunkowa bo nie działa poprawnie)" />
     <MESSAGE value="usunięcie plików" />
     <MESSAGE value="Poprawne generowanie statystyk i raz + poprawa UI (minimalna)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawne generowanie statystyk i raz + poprawa UI (minimalna)" />
+    <MESSAGE value="dodanie generacji rasy do grida" />
+    <MESSAGE value="implementacja zdjęć i poprawy UI" />
+    <MESSAGE value="adding some visuality" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some visuality" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#AppTest.Models.GeneratePdf" memberName="_gfx" />
+        <PinnedItemInfo parentTag="Frame#AppTest.Models.GeneratePdf.GenerateCard" memberName="page" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

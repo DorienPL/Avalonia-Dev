@@ -7,7 +7,7 @@ using Avalonia.Data;
 using Avalonia.Markup.Xaml;
 using ReactiveUI;
 namespace AppTest.Models;
-public class Statistics : MainWindow
+public class Statistics
 {
     public int WeaponSkill;
     public int BallisticSkill;
