@@ -20,6 +20,10 @@ public class Statistics
     public int Willpower;
     public int Fellowship;
     public int HealthPoints;
+    public string Name;
+    public string LastName;
+    public string HairColour;
+    public string EyeColour;
     public Statistics(string race)
     {
         StatisticsGenerate(race);

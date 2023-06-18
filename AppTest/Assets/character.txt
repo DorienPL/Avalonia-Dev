@@ -1,1 +1,16 @@
-Test2
+Name: Patryk
+LastName: Kordas
+Hair colour: Brown
+Eye colour: Blue
+Race: Human
+Health Points: 12 
+Weapon Skill: 40
+Balistic Skill: 25
+Strength: 39
+Toughness: 37
+Initiative: 36
+Dexterity: 26
+Agility: 39
+Intelligence: 25
+Willpower: 34
+Fellowship: 28

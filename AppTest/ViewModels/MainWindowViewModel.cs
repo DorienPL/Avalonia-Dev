@@ -3,6 +3,7 @@ using System.IO;
 using Avalonia.Controls;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.InteropServices.ComTypes;
 using System.Security.Cryptography;
 using AppTest.Models;
 using Avalonia.Markup.Xaml;
@@ -16,29 +17,36 @@ public class MainWindowViewModel : ReactiveObject
     public string Banner => "/Assets/Banner.png";
     private IBitmap _raceImage;
     private Statistics? _stats;
-    private static class SaveToFile
-    {
-        private static StreamWriter? _sw;
+    private static StreamWriter? _sw;
 
-        public static void WriteToFile()
-        {
-            _sw = new StreamWriter("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/character.txt");
-            _sw.WriteLine("Test2");
-            _sw.Close();
-        }
+    public void WriteToFile()
+    {
+        _sw = new StreamWriter("/Users/pkord/Projects/Avalonia-Dev/AppTest/Assets/character.txt");
+        _sw.WriteLine($"Name: {_name}");
+        _sw.WriteLine($"LastName: {_lastName}");
+        _sw.WriteLine($"Hair colour: {_hairColour}");
+        _sw.WriteLine($"Eye colour: {_eyeColour}");
+        _sw.WriteLine($"Race: {_pickedRace}");
+        _sw.WriteLine($"Health Points: {_healthPoints} ");
+        _sw.WriteLine($"Weapon Skill: {_statsWs}");
+        _sw.WriteLine($"Balistic Skill: {_statsBs}");
+        _sw.WriteLine($"Strength: {_statsS}");
+        _sw.WriteLine($"Toughness: {_statsT}");
+        _sw.WriteLine($"Initiative: {_statsI}");
+        _sw.WriteLine($"Dexterity: {_statsDex}");
+        _sw.WriteLine($"Agility: {_statsAg}");
+        _sw.WriteLine($"Intelligence: {_statsInt}");
+        _sw.WriteLine($"Willpower: {_statsWp}");
+        _sw.WriteLine($"Fellowship: {_statsFel}");
+        _sw.Close();
     }
 
-    //Generating Race and Stats on button
+            //Generating Race and Stats on button
     public void OnButtonClickRace()
     {
         var (race, raceBitmap) = Race.RacePick();
         PickedRace = race.RaceName;
         RaceImage = raceBitmap;
-    }
-
-    public static void OnButtonSaveToFile()
-    {
-        SaveToFile.WriteToFile();
     }
     public void OnButtonClickStatistics()
     {
@@ -56,13 +64,37 @@ public class MainWindowViewModel : ReactiveObject
         HealthPoints = _stats.HealthPoints;
     }
     private string _pickedRace = String.Empty;
-    private string _name;
     
+    private string _name;
     public string Name
     {
         get => _name;
         set => this.RaiseAndSetIfChanged(ref _name, value);
     }
+
+    private string _lastName;
+
+    public string LastName
+    {
+        get => _lastName;
+        set => this.RaiseAndSetIfChanged(ref _lastName, value);
+    }
+    private string _hairColour;
+
+    public string HairColour
+    {
+        get => _hairColour;
+        set => this.RaiseAndSetIfChanged(ref _hairColour, value);
+    }
+
+    private string _eyeColour;
+
+    public string EyeColour
+    {
+        get => _eyeColour;
+        set => this.RaiseAndSetIfChanged(ref _eyeColour, value);
+    }
+    
     public string PickedRace
     {
         get => _pickedRace;

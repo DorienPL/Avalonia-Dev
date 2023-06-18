@@ -106,14 +106,14 @@
         <Grid Classes="gridbtest2" ColumnDefinitions="250,250" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
             <TextBlock FontWeight="Bold" FontSize="22" Padding="15,10,0,10" Grid.Column="0" Grid.Row="0"  Margin="0,0,0,10" Classes="grid2" Name="Details" Text="Enter your Character details:"></TextBlock>
             <TextBlock Padding="100,0,0,0" Grid.Row="1" Grid.Column="0" Classes="grid2" Text="Name: "></TextBlock>
-            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="1" Grid.Column="1" Classes="info" Name="Name"></TextBox>
+            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="1" Grid.Column="1" Classes="info" Text="{Binding Name}"></TextBox>
             <TextBlock Padding="100,0,0,0" Grid.Row="2" Grid.Column="0" Classes="grid2" Text="Last name: "></TextBlock>
-            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="2" Grid.Column="1" Classes="info" Name="LastName" ></TextBox>
+            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="2" Grid.Column="1" Classes="info" Text="{Binding LastName}" ></TextBox>
             <TextBlock Padding="100,0,0,0" Grid.Row="3" Grid.Column="0" Classes="grid2" Text="Hair colour: "></TextBlock>
-            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="3" Grid.Column="1" Classes="info" Name="HairColour"></TextBox>
+            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="3" Grid.Column="1" Classes="info" Text="{Binding HairColour}"></TextBox>
             <TextBlock Padding="100,0,0,0" Grid.Row="4" Grid.Column="0" Classes="grid2" Text="Eye colour: "></TextBlock>
-            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="4" Grid.Column="1" Classes="info" Name="EyeColour"></TextBox>
-            <Button Grid.Row="5"  Grid.Column="1" Classes="button" Command="{Binding OnButtonSaveToFile}" Content="Save to file"></Button>
+            <TextBox Foreground="Black" Margin="0, 0, 0, 5" Grid.Row="4" Grid.Column="1" Classes="info" Text="{Binding EyeColour}"></TextBox>
+            <Button Grid.Row="5"  Grid.Column="1" Classes="button" Command="{Binding WriteToFile}" Content="Save to file"></Button>
         </Grid>
     </StackPanel>
 </Window>
